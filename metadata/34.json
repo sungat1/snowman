@@ -1,0 +1,51 @@
+{
+  "name": "ProSnowmen  #34",
+  "description": "ProSnowmen",
+  "image": "https://Probit.app/metadata/34.png",
+  "dna": "0371e7b3c77ac76aeb836cba2dfa0876a32a23ef",
+  "edition": 34,
+  "date": 1638377874233,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Indigo"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Body"
+    },
+    {
+      "trait_type": "Carrot nose",
+      "value": "Nose"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Rich boy glasses"
+    },
+    {
+      "trait_type": "Hands",
+      "value": "Hands"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "Strawberry hat"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Mouth e"
+    },
+    {
+      "trait_type": "Scart",
+      "value": "Scarf red"
+    },
+    {
+      "trait_type": "Oascending",
+      "value": "None"
+    },
+    {
+      "trait_type": "Snowman buttons",
+      "value": "Snowman buttons"
+    }
+  ],
+  "compiler": "ProSnowmen"
+}
