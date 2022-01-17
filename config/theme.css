@@ -1,0 +1,35 @@
+:root {
+  --container-bg: #000000;
+  --logo-bg: linear-gradient(180deg,#ffe676 0,#7d4c00 65%,#b27c1f);
+  --texts-bg: #ffffff;
+  --bottom-bg: #b27c1f;
+
+  --connect-button: #ff9900;
+  --connect-button-text: #000000;
+
+  --supply-text: #7d4c00;
+  --cost-text: #af6900;
+  
+  --feedback-text: #272727;
+  --warning-text: #af6900;
+  --error-text: #b30000;
+  --success-text: #48c044;
+  --footer-link: #ffffff;
+
+  --number-text: #272727;
+  --number-button: #ff9900;
+  --number-button-text: #000000;
+
+  --buy-button: #48c044;
+  --buy-button-text: #000000;
+
+  --button-shadow: 0px 4px 0px -2px rgba(0, 0, 0, 0.5);
+
+  /* Fallbacks */
+  --primary: #49a0d3;
+  --primary-text: #1a1a1a;
+  --secondary: #ff9900;
+  --secondary-text: #161616;
+  --accent: #48c044;
+  --accent-text: #272727;
+}
