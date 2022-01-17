@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Lionia Club - NFT Collection</title>
+  <meta name="description" content="Lionia Club - An NFT Collection for winners. Join Lionia Club and show-off your Lion-persona.">
+  <meta name="keywords" content="Lionia Club, DApp, Decentralized application, NFT, Non-Fungible, Smart Contract, Blockchain, Community">
+
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- open-graph -->
+  <meta property="og:type" content="website" />
+  <meta property="twitter:card" content="summary_large_image"/>
+  <meta property="og:site_name" content="Lionia Club" />
+  <meta property="og:title" content="Lionia Club - NFT Collection" />
+  <meta property="og:description" content="An NFT Collection for winners. Join Lionia Club and show-off your Lion-persona. " />
+  <meta property="og:url" content="https://dation.net/lionia-club/" />
+  <meta property="og:image" content="https://dation.net/lionia-club/assets/img/opengraph/og-lionia-club-1.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- dApp -->
+	<meta name="apple-mobile-web-app-capable" content="no"> 
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="stylesheet" href="./config/theme.css?v=20220117" />
+  <link href="./static/css/main.4e72978e.chunk.css?v=20220117" rel="stylesheet" />
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Style CSS File -->
+  <link href="assets/css/style.css?v=20220114" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="home">
+    <div class="hero-container">
+      <!-- <h1>Join Lionia Club</h1>
+      <h2>Lionia Club Members are available on OpenSea Marketplace. <br/>Visit the collection page on OpenSea to buy one.</h2>
+      <a class="btn-get-started" href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank">View on OpenSea</a> -->
+      
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div id="minting-card"></div>
+      <script>
+        !(function (e) {
+          function t(t) {
+            for (
+              var n, u, a = t[0], c = t[1], l = t[2], f = 0, s = [];
+              f < a.length;
+              f++
+            )
+              (u = a[f]),
+                Object.prototype.hasOwnProperty.call(o, u) &&
+                  o[u] &&
+                  s.push(o[u][0]),
+                (o[u] = 0);
+            for (n in c)
+              Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]);
+            for (p && p(t); s.length; ) s.shift()();
+            return i.push.apply(i, l || []), r();
+          }
+          function r() {
+            for (var e, t = 0; t < i.length; t++) {
+              for (var r = i[t], n = !0, a = 1; a < r.length; a++) {
+                var c = r[a];
+                0 !== o[c] && (n = !1);
+              }
+              n && (i.splice(t--, 1), (e = u((u.s = r[0]))));
+            }
+            return e;
+          }
+          var n = {},
+            o = { 1: 0 },
+            i = [];
+          function u(t) {
+            if (n[t]) return n[t].exports;
+            var r = (n[t] = { i: t, l: !1, exports: {} });
+            return e[t].call(r.exports, r, r.exports, u), (r.l = !0), r.exports;
+          }
+          (u.e = function (e) {
+            var t = [],
+              r = o[e];
+            if (0 !== r)
+              if (r) t.push(r[2]);
+              else {
+                var n = new Promise(function (t, n) {
+                  r = o[e] = [t, n];
+                });
+                t.push((r[2] = n));
+                var i,
+                  a = document.createElement("script");
+                (a.charset = "utf-8"),
+                  (a.timeout = 120),
+                  u.nc && a.setAttribute("nonce", u.nc),
+                  (a.src = (function (e) {
+                    return (
+                      u.p +
+                      "static/js/" +
+                      ({}[e] || e) +
+                      "." +
+                      { 3: "1414eae9" }[e] +
+                      ".chunk.js"
+                    );
+                  })(e));
+                var c = new Error();
+                i = function (t) {
+                  (a.onerror = a.onload = null), clearTimeout(l);
+                  var r = o[e];
+                  if (0 !== r) {
+                    if (r) {
+                      var n = t && ("load" === t.type ? "missing" : t.type),
+                        i = t && t.target && t.target.src;
+                      (c.message =
+                        "Loading chunk " +
+                        e +
+                        " failed.\n(" +
+                        n +
+                        ": " +
+                        i +
+                        ")"),
+                        (c.name = "ChunkLoadError"),
+                        (c.type = n),
+                        (c.request = i),
+                        r[1](c);
+                    }
+                    o[e] = void 0;
+                  }
+                };
+                var l = setTimeout(function () {
+                  i({ type: "timeout", target: a });
+                }, 12e4);
+                (a.onerror = a.onload = i), document.head.appendChild(a);
+              }
+            return Promise.all(t);
+          }),
+            (u.m = e),
+            (u.c = n),
+            (u.d = function (e, t, r) {
+              u.o(e, t) ||
+                Object.defineProperty(e, t, { enumerable: !0, get: r });
+            }),
+            (u.r = function (e) {
+              "undefined" != typeof Symbol &&
+                Symbol.toStringTag &&
+                Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+                Object.defineProperty(e, "__esModule", { value: !0 });
+            }),
+            (u.t = function (e, t) {
+              if ((1 & t && (e = u(e)), 8 & t)) return e;
+              if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+              var r = Object.create(null);
+              if (
+                (u.r(r),
+                Object.defineProperty(r, "default", { enumerable: !0, value: e }),
+                2 & t && "string" != typeof e)
+              )
+                for (var n in e)
+                  u.d(
+                    r,
+                    n,
+                    function (t) {
+                      return e[t];
+                    }.bind(null, n)
+                  );
+              return r;
+            }),
+            (u.n = function (e) {
+              var t =
+                e && e.__esModule
+                  ? function () {
+                    return e.default;
+                  }
+                  : function () {
+                    return e;
+                  };
+              return u.d(t, "a", t), t;
+            }),
+            (u.o = function (e, t) {
+              return Object.prototype.hasOwnProperty.call(e, t);
+            }),
+            (u.p = "./"),
+            (u.oe = function (e) {
+              throw (console.error(e), e);
+            });
+          var a = (this.webpackJsonphashlips_nft_minting_dapp =
+              this.webpackJsonphashlips_nft_minting_dapp || []),
+            c = a.push.bind(a);
+          (a.push = t), (a = a.slice());
+          for (var l = 0; l < a.length; l++) t(a[l]);
+          var p = c;
+          r();
+        })([]);
+      </script>
+      <script src="./static/js/2.1837041f.chunk.js?v=20220117"></script>
+      <script src="./static/js/main.6477a423.chunk.js?v=20220117"></script>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="./">Lionia Club</a></h1>
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#our-goals">Goals</a></li> -->
+          <li><a class="nav-link scrollto" href="#roadmap">Roadmap</a></li>
+          <li><a class="nav-link scrollto" href="#lore">Lore</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#rarity">Rarity</a></li> -->
+          <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links d-flex align-items-center">
+        <a href="https://discord.com/invite/qYh8PDhArz" class="discord" rel="nofollow noopener" target="_blank"><i class="bi bi-discord"></i></a>
+        <a href="https://twitter.com/LioniaClubNFT" class="twitter" rel="nofollow noopener" target="_blank"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.instagram.com/teaffee.nft/" class="instagram" rel="nofollow noopener" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/Teaffee-Art-110521151407600" class="facebook" rel="nofollow noopener" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://opensea.io/collection/lionia-club" class="opensea" rel="nofollow noopener" target="_blank"><i class="opensea-icon"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+            Lionia Club is a collection of 10,000 unique Lion NFTs — unique digital collectibles, living on the Polygon blockchain.
+            </p>
+            <p>
+            Members of the Lionia Club came from another dimension, where lions rather than humans evolved as the dominant species on earth and named the planet 'Lionia'. But a mysterious disaster forced the Lionians to travel to our dimension through the Polygon blockchain, and they formed the Lionia Club...<br/>
+            <a class="scrollto" href="#lore">Read more about the Lore of Lionia</a>.
+            </p>
+            <p>
+            Minting a Lion NFT cost only 20 MATIC (~0.012 ETH)*.
+            </p>
+            <p>
+            Once you buy one, your Lion NFT doubles as your Lionia Club membership card, and grants access to members-only benefits, such as access to exclusive chat rooms, ruffle prizes, and giveaways. Future perks will get unlocked by the community through roadmap activation. First of which is a giveaway over $10,000 in total to celebrate our launch.
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <!-- <h5>Limited Early-Bird Discount:</h5>
+            <p style="background: #ffd356; padding: 6px 10px; margin-bottom: 5px;">
+            We have a <b></b>90% Early-Bird discount</b>. <br/>
+            So, minting only costs <b>2 MATIC (~0.0012 ETH)*.</b> <br/>
+            until <b>Lionia Club Member #2000</b> gets minted.
+            </p>
+            <p style="font-size: 14px; line-height: 1.3em"">
+            </p> -->
+            <h5>Launch Celebration Giveaways:</h5>
+            <p style="background: #58ca41; padding: 6px 10px; margin-bottom: 10px;">
+            There is 1 unique <b>"Golden Lion"</b> in the collection. <br/>
+            The holder of this super rare LCM will receive <b>$5,000 in ETH</b> when the initial sale is sold out**. 
+            </p>
+            <p style="background: #58ca41; padding: 6px 10px; margin-bottom: 16px;">
+            Also, <b>5 random LCM holders</b> will receive <b>$1,000 in ETH</b>. when the initial sale is sold out**. 
+            </p>
+            <p style="font-size: 14px; line-height: 1.3em; margin-bottom: 7px;">
+            <i>* Plus gas fees. Prices are based on MATIC, ETH equivalents may change.</i>
+            </p>
+            <p style="font-size: 14px; line-height: 1.3em; margin-bottom: 7px;">
+            <i>** When the initial sale is sold out, we will determine the winners by the LCM token numbers and send the prizes to the holders' wallet addresses, not the minters'. So, if you have minted a winner LCM, but you have sold your NFT before the pick, the new owner would get the prize.</i>
+            </p>
+            <p style="font-size: 14px; line-height: 1.3em; margin-bottom: 10px;">
+            <i>Note: The first 50 LCMs are reserved for the team members, puzzle rewards, and giveaways.</i>
+            </p>
+            
+            <p>
+              <a href="#home" class="btn-learn-more scrollto">Go to Minting App</a> <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="btn-learn-more">See on OpenSea</a>
+            </p>
+            <!-- <p>
+            Join Lionia Club today and get VIP access to exciting experiences such as games, raffle prizes, giveaways, donation events, and more. 
+            Go to <a class="scrollto" href="#home">Minting App</a> or <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank">OpenSea</a>.
+            </p> -->
+            <!-- <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="btn-learn-more">Join Lionia Club</a> -->
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <!-- 
+    <section id="counts" class="counts">
+      <div class="container">
+        <div class="row counters">
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Unique NFTs</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="212" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Possible Traits</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Counts Section -->
+
+
+    <!-- ======= Our Values Section ======= -->
+    <section id="our-goals" class="our-goals">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card" style='background-image: url("assets/img/goals/our-goals-1.jpg");'>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Building a Community</a></h5>
+                <p class="card-text">The primary aim of this project is to build a community where brilliant and good-hearted people get together and support each other to grow and thrive in the crypto world.</p>
+                <!-- <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="card" style='background-image: url("assets/img/goals/our-goals-2.jpg");'>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Growing with our Members</a></h5>
+                <p class="card-text">We want to grow this project and make all Lionia Club members get more benefits from their memberships. As the project grow, the value of membership will increase too.</p>
+                <!-- <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div> -->
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/img/goals/our-goals-3.jpg");'>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Creative Productions</a></h5>
+                <p class="card-text">Starting with this project, we are hoping do a series of productions about Lionia, such as games or side tokens, through which we can reward our members for their support.</p>
+                <!-- <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/img/goals/our-goals-4.jpg");'>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Giving Back and Helping Good Causes</a></h5>
+                <p class="card-text">We are planning on various great giveaways for LCM holders. But we also hope to organize or join fundraiser events as a community to support good causes.</p>
+                <!-- <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ======= Brands Section ======= -->
+      <div id="brands" class="brands section-bg">
+        <div class="container">
+
+          <div class="row  justify-content-center">
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <img src="../assets/img/marketplaces/opensea.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <img src="../assets/img/blockchains/polygon.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+              <img src="../assets/img/dation/dation_brand.png" class="img-fluid" alt="">
+            </div>
+
+          </div>
+
+        </div>
+      </div><!-- End Brands Section -->
+
+    </section><!-- End Our Values Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="roadmap" class="roadmap">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Roadmap</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box">
+              <div class="icon" style="color: #9fc5e8;"><i class="bi bi-hypnotize"></i></div>
+              <h4 class="title"><a href="">Arival of Lionians</a></h4>
+              <p class="description">Minting dApp goes live! You will be able to mint Lionia Club Members (LCM) on Polygon network through our minting app web-page!</p>
+              <span class="roadmap-reached">Reached on 01-05-2022</span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon" style="color: #ea9999;"><i class="bi bi-person-bounding-box"></i></div>
+              <h4 class="title"><a href="">Reveal</a></h4>
+              <p class="description">5 days after the project launch, we will reveal all the images and properties of Lionia Club Members. You will be able to see your Lion and its properties on OpenSea.</p>
+              <span class="roadmap-reached">Reached on 01-10-2022</span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <div class="icon" style="color: #b6d7a8;"><i class="bi bi-gift"></i></div>
+              <h4 class="title"><a href="">Giveaways</a></h4>
+              <p class="description">We will have giveaways for Lionia Club Member tokens. Increasing the recognision while allowing some lucky people to join the club, or have more Lions.</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mt-4">
+            <div class="icon-box">
+              <div class="icon" style="color: #e06666;"><i class="bi bi-caret-right-square"></i></div>
+              <h4 class="title"><a href="">YouTube Channel</a></h4>
+              <p class="description">Launch of the official Lionia Club YouTube Channel. We will have advertising clips and animations about Lionia Club and the future Lionia productions on this channel.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4">
+            <div class="icon-box">
+              <div class="icon" style="color: #b4a7d6;"><i class="bi bi-controller"></i></div>
+              <h4 class="title"><a href="">Lionia Club Games</a></h4>
+              <p class="description">We will create multiple games including some arcade-style ones with clues for our ARG. But, we also plan at least one big action game that explores the lore of Lionia.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4">
+            <div class="icon-box">
+              <div class="icon" style="color: #f6b26b;"><i class="bi bi-trophy"></i></div>
+              <h4 class="title"><a href="">Celebration</a></h4>
+              <p class="description">When the initial sale has sold out, the holder of the "Golden Lion" will recieve their prize and we will have a series of giveaways for the LCM holders, as celebration.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      
+    </section><!-- End Services Section -->
+
+    
+    <!-- ======= Lore Section ======= -->
+    <section id="lore" class="lore">
+      <div class="container">
+        <div class="section-title">
+          <h2>Lore</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+            Members of the Lionia Club came from another dimension, where lions rather than humans evolved as the dominant species on earth and named the planet 'Lionia'. 
+            </p>
+            <p>
+            In this parallel dimension, the history of civilization was mostly similar to ours, with some key differences. For some reason, the evolution of prehistoric lions surpassed the apes', and made lions be able to walk on two feet, use tools, develop languages, and more.
+            </p>
+            <p>
+            In time, they went through all the same developments, discoveries, and mistakes as our ancestors did. Even their languages developed similar to ours' with minor changes. They explored the world and understand nature, perhaps better than humans. And they named their world 'Lionia' after themselves. 
+            </p>
+            <p>
+            As their civilization grow, lions learned philosophy, science, and, unfortunately, war. They had wars like ours. However, their wars affected lions differently. Each war made lions unite more and work together. Eventually, they formed one big planet-wide alliance. This allowed them to progress faster in social issues and science. They became so much more progressive than we are. They embraced all cultures and world views, knowing that they all wanted the same things in the bigger picture.
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+            Lionian leaders supported almost all scientific ideas and inventions. This allowed their scientists to invent and develop better energy sources and reduce their negative impact on nature even more. They even discovered parallel dimensions and managed to observe other worlds, such as ours. In recent years, Lionian scientists started experimenting on opening gateways to these worlds to visit them. 
+            </p>
+            <p>
+            But a mysterious disaster changed everything. Just in a few days, chaos engulfed the whole world. Their advanced civilization collapsed under the sheer number of catastrophes, all hitting at once. It was clear that the apocalypse had arrived for Lionia. 
+            </p>
+            <p>Fortunately, some Lionians helped each other through this nightmare and managed to use the experimental inter-dimensional portals. They traveled to our dimension. 
+            </p>
+            <p>
+            Shortly after they arrived, Lionians noticed that some humans had very similar qualities to lions. They were brave, smart, good-hearted and supportive to each other. So, Lionians called these humans "lion-souls" and partnered with them. Together, they formed the "Lionia Club" to organize, help each other, have fun, and make the world a better place...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Gallery Section ======= -->
+   <section id="gallery" class="gallery">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>You can see some samples from the collection here;</p>
+        </div>
+
+        <!-- <ul id="gallery-flters" class="d-flex justify-content-center">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-set-01">01</li>
+        </ul>  -->
+
+        <div class="row gallery-container">
+
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/1.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/2.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/2.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/3.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/3.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/4.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/4.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/5.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/5.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/6.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/6.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/7.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/7.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/8.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/8.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/9.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/9.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/10.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/10.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/11.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/11.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6 gallery-item filter-set-01">
+            <div class="gallery-img"><a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><img src="assets/img/gallery/12.jpg" class="img-fluid" alt=""></a></div>
+            <div class="gallery-info">
+              <h4>Lionia Club Member</h4>
+              <p>LCM</p>
+              <a href="assets/img/gallery/12.jpg" data-gallery="portfolioGallery" class="gallery-lightbox preview-link" title="Lionia Club Member"><i class="bi bi-zoom-in"></i></a>
+              <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank" class="details-link" title="More Details"><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+
+      <!-- ======= Cta Section ======= -->
+      <div id="cta" class="cta">
+        <div class="container">
+          <div class="text-center">
+            <h3>See the Collection on OpenSea</h3>
+            <p>To see the full list of NFTs in the Lionia Club Collection, visit the collection page on OpenSea.</p>
+            <a class="cta-btn" href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank">View on OpenSea</a>
+          </div>
+        </div>
+      </div><!-- End Cta Section -->
+
+
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Hopefully, here you can find the answers to your questions about our project.</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">How much does it cost to buy Lionia Club NFTs? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  Minting a Lionia Club NFT (LCM) costs only 20 MATIC (~0.012 ETH), plus gas fees. 
+                </p>
+                <p>
+                  However, if you missed the minting sale, you would need to buy your Lionia Club NFT on a secondary market such as <a href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank"><b>OpenSea</b></a> where prices will be determined by the owners.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How I can buy Lionia Club NFTs if I don't have MATIC? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  If you don't have any MATIC, but have some other ethereum currency, you can transfer some asset to Polygon Network by using <a href="https://wallet.polygon.technology/bridge" rel="nofollow noopener" target="_blank"><b>Polygon Bridge</b></a>. Then you can swap some of them for MATIC by using a swap service such as <a href="https://app.uniswap.org/#/swap" rel="nofollow noopener" target="_blank"><b>UniSwap</b></a>.
+                </p>
+                <p>
+                  However, if you don't have any crypto currency or even crypto wallet, you would first need to buy some crypto currency with your local currency, such as USD or EUR. There are many services you can use for buying crypto currency. You may want to pick a service that can sell you MATIC to reduce the steps. Some of the most popular services are <a href="https://www.moonpay.com/" rel="nofollow noopener" target="_blank"><b>MoonPay</b></a>, <a href="https://transak.com/" rel="nofollow noopener" target="_blank"><b>Transak</b></a>, and <a href="https://ramp.network/" rel="nofollow noopener" target="_blank"><b>Ramp</b></a>. These services are usually very similar. After you choose the amount and currency that you want to buy, they will ask you to provide photos of your personal ID, and a selfie. But this is a quick process and your crypto fund will be in your wallet shorty after you make the payment with your credit/debit card and provide your wallet address.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What should I do if I don't even have a crypto wallet? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  To be able to buy NFTs you need to have a crypto wallet. While you may find many wallet options in the market, here, we support <a href="https://metamask.io/" rel="nofollow noopener" target="_blank"><b>MetaMask</b></a> for our minting app. It is free, it works in your web browser, and our minting app is designed to work with it.
+                </p>
+                <p>
+                  After you install MetaMask wallet, and create your wallet by following the directives, you may also need to add Polygon Network to your wallet. Even if you don't know how to add custom networks to a crypto wallet, you can simply visit <a href="https://polygonscan.com/" rel="nofollow noopener" target="_blank"><b>Polygonscan.com</b></a>, scroll down to the bottom of the page and click on the small button that reads "Add Polygon Network". You will recognise it by the MetaMask icon. This button will promt your wallet to add a new network, and once you confirm, you will see Polygon network in your wallet.
+                </p>
+                <p>
+                  After you get your wallet working, you can go and buy some MATIC by using a service such as <a href="https://www.moonpay.com/" rel="nofollow noopener" target="_blank"><b>MoonPay</b></a>, <a href="https://transak.com/" rel="nofollow noopener" target="_blank"><b>Transak</b></a>, or <a href="https://ramp.network/" rel="nofollow noopener" target="_blank"><b>Ramp</b></a>.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Which blockchain Lionia Club is on? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Lionia Club project lives in the Polygon blockchain. So, it benefits from all the strengths of the Ethereum blockchain. But it doesn't burden the NFT holders with the problems such as slow transactions or high gas fees during the trading. 
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Why Polygon? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>Because Polygon blockchain is the future for the NFT world.</p>
+                <p><a href="https://polygon.technology/" rel="nofollow noopener" target="_blank"><b>Polygon</b></a>, formally known as MATIC, was designed to solve this problem; to make transactions on the Ethereum blockchain faster and cheaper. And the difference it makes is huge.</p>
+                <p>When you buy an NFT on Ethereum, the transactions during busy hours can cost you <b>hundreds of dollars in gas fees alone</b>, which is not included in the NFT price. And if you try to avoid paying too much, your transaction can too long for an urgent trade. However, the same transaction would be done in seconds, and gas fees would only cost you <b>a few cents or practically nothing on Polygon</b>.</p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">How can I see my Lionia Club NFTs? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></a>
+              <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  After you buy your Lionia Club NFTs, you can go to <a href="https://opensea.io/" rel="nofollow noopener" target="_blank"><b>OpenSea</b></a>, connect your wallet and see your NFTs in your profile page.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-7" class="collapsed">What can I do with my Lionia Club NFT? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></a>
+              <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  You can keep your Lionia Club NFT as a digital collectible, use it as a profile picture online, keep it to use it with our future projects, or you can resell your Lionia Club NFT for profit. 
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-8" class="collapsed">Are there any secondary sale royalties? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></a>
+              <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Yes, 5% of the secondary sales will be deducted in royalties for the Team. We will use this royalties to grow our marketing campaigns allowing us to raise the floor for our holders!
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+      
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>
+            This is the team behind the Lionia Club's creation. But if you already have minted your LCMs, you too are a part of our team now. <br />
+            We have worked hard on this project during very challenging times, and we still are. So, we are very excited to share it with you. <br />
+            We got many plans for the Lionia Club Members and we can't wait to show them to the world. Let's do this, together!
+          </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Teaffee</h4>
+                <span>Project Creator Artist</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Bruce</h4>
+                <span>Coding and Development</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Nick</h4>
+                <span>Art Design and Illustration</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Linda</h4>
+                <span>Marketing and Social Media</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+    
+
+  </main><!-- End #main -->
+
+      <!-- ======= Cta Section ======= -->
+      <div id="cta" class="cta">
+        <div class="container">
+          <div class="text-center">
+            <h3>See the Collection on OpenSea</h3>
+            <p>To see the full list of NFTs in the Lionia Club Collection, visit the collection page on OpenSea.</p>
+            <a class="cta-btn" href="https://opensea.io/collection/lionia-club" rel="nofollow noopener" target="_blank">View on OpenSea</a>
+          </div>
+        </div>
+      </div><!-- End Cta Section -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+
+      <div class="container">
+
+        <div class="row  justify-content-center">
+          <div class="col-lg-6">
+            <h3>Join Lionia Club's Online Community</h3>
+            <p>Follow and Join us on Social Media</p>
+          </div>
+        </div>
+
+        <!-- 
+        <div class="row footer-newsletter justify-content-center">
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div> 
+        -->
+
+        <div class="social-links">
+          <a href="https://discord.com/invite/qYh8PDhArz" class="discord" rel="nofollow noopener" target="_blank"><i class="bi bi-discord"></i></a>
+          <a href="https://twitter.com/LioniaClubNFT" class="twitter" rel="nofollow noopener" target="_blank"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.facebook.com/Teaffee-Art-110521151407600" class="facebook" rel="nofollow noopener" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/teaffee.nft/" class="instagram" rel="nofollow noopener" target="_blank"><i class="bi bi-instagram"></i></a>
+          <!-- <a href="#" class="linkedin" rel="nofollow noopener" target="_blank"><i class="bi bi-linkedin"></i></a> -->
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span><a href="https://dation.net/" rel="follow" target="_blank">Dation.net</a></span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- <div id="preloader"></div> -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- Custom JS Files -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
